@@ -49,7 +49,7 @@ const reducePages = (width, pages) =>
         await page.goto('${page}')
         const screen = await page.screenshot({ fullPage: true })
         expect(screen).toMatchImageSnapshot({
-            customSnapshotsDir: '.__image_snapshots__',
+            customSnapshotsDir: '__image_snapshots__',
             failureThreshold: '0.01',
         })
         }, 15000)\n`

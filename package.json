@@ -1,5 +1,5 @@
 {
-  "name": "visual tests",
+  "name": "visual-tests",
   "version": "1.0.0",
   "scripts": {
     "st:rerun": "npm run st:unlike && npm run st:generate && npm run st:run",
